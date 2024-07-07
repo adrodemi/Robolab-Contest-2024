@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Quest : MonoBehaviour
 {
@@ -62,5 +63,11 @@ public class Quest : MonoBehaviour
         questDescription.gameObject.SetActive(false);
         questReward.gameObject.SetActive(false);
         questCompletedText.gameObject.SetActive(true);
+        StartCoroutine(EndOfTheGame());
+    }
+    IEnumerator EndOfTheGame()
+    {
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene("Credits Scene");
     }
 }

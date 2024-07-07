@@ -361,6 +361,7 @@
 "Assets/Scripts/Axe.cs"
 "Assets/Scripts/CampFire.cs"
 "Assets/Scripts/Character.cs"
+"Assets/Scripts/CreditsController.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameMenu.cs"
 "Assets/Scripts/Interactable.cs"

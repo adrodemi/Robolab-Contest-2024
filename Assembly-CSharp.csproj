@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\GameMenu.cs" />
     <Compile Include="Assets\Scripts\Axe.cs" />
+    <Compile Include="Assets\Scripts\CreditsController.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\SmartCamera.cs" />
     <Compile Include="Assets\Scripts\CampFire.cs" />
