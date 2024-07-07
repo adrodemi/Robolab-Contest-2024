@@ -381,6 +381,7 @@
 "Assets/Scripts/SmartCamera.cs"
 "Assets/Scripts/SoundEffects.cs"
 "Assets/Scripts/Sword.cs"
+"Assets/Scripts/Wave/WaveSpawner.cs"
 -langversion:9.0
 /deterministic
 /optimize+

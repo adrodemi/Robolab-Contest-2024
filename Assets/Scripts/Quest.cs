@@ -49,9 +49,11 @@ public class Quest : MonoBehaviour
     {
         enemyCount--;
         if (enemyCount <= 0)
-            QuestDone();
+        {
+
+        }
     }
-    private void QuestDone()
+    public void QuestDone()
     {
         QuestsSystem.Instance.activeQuests.Remove(this);
         QuestsSystem.Instance.doneQuests.Add(this);
@@ -65,7 +67,7 @@ public class Quest : MonoBehaviour
         questCompletedText.gameObject.SetActive(true);
         StartCoroutine(EndOfTheGame());
     }
-    IEnumerator EndOfTheGame()
+    public IEnumerator EndOfTheGame()
     {
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene("Credits Scene");

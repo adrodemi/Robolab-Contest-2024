@@ -4552,7 +4552,7 @@ MonoBehaviour:
   timeBeforeAttack: 1
   canAttack: 1
   focus: {fileID: 0}
-  agreRadius: 10
+  agreRadius: 10000
   quest: {fileID: 0}
 --- !u!136 &9105509217917366715
 CapsuleCollider:
