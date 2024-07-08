@@ -21,6 +21,14 @@
             "icon": null
           },
           {
+            "name": "NavMeshObstacle",
+            "scenes": [
+              "Assets/Scenes/Main Scene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "NavMeshProjectSettings",
             "scenes": [],
             "dependencyType": 1,

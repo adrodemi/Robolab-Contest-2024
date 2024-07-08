@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|c:\\users\\adrod\\documents\\github\\robolab-contest-2024\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\wave\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,15 +23,11 @@
       "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|c:\\users\\adrod\\documents\\github\\robolab-contest-2024\\assets\\scripts\\wave\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wave\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|c:\\users\\adrod\\documents\\github\\robolab-contest-2024\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|c:\\users\\adrod\\documents\\github\\robolab-contest-2024\\assets\\scripts\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\assets\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1C5BF3A-FA64-2493-4A62-089A32B09D73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\adrod\\documents\\github\\robolab-contest-2024\\assets\\scripts\\sword1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -94,25 +94,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T21:17:44.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T21:17:44.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "WaveSpawner.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Wave\\WaveSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Wave\\WaveSpawner.cs",
               "ToolTip": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Wave\\WaveSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Wave\\WaveSpawner.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwEAAAAAeAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwD4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T20:28:16.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ItemPickUp.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Inventory\\ItemPickUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemPickUp.cs",
@@ -124,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Inventory\\ItemController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemController.cs",
@@ -136,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Inventory\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Item.cs",
@@ -148,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
@@ -156,12 +155,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAArwBAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:52:50.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T17:52:50.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "InventoryItemController.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Inventory\\InventoryItemController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryItemController.cs",
@@ -169,12 +167,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryItemController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:52:48.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T17:52:48.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Axe.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Axe.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Axe.cs",
@@ -182,7 +179,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Axe.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:46:50.81Z"
+              "WhenOpened": "2024-07-07T17:46:50.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -192,14 +190,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
               "ToolTip": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Quest.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAswDcAAAAKAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwEkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T12:18:03.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreditsController.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\CreditsController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CreditsController.cs",
@@ -207,12 +205,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CreditsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T19:16:47.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T19:16:47.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AgentAnimator.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\AgentAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AgentAnimator.cs",
@@ -224,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GameMenu.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\GameMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenu.cs",
@@ -236,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\adrod\\Documents\\GitHub\\Robolab-Contest-2024\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",

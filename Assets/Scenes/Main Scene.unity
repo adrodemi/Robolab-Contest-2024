@@ -3058,7 +3058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &248799245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3092,26 +3092,6 @@ MonoBehaviour:
   - name: 6
     enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
     count: 6
-    rate: 1
-  - name: 7
-    enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
-    count: 7
-    rate: 1
-  - name: 8
-    enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
-    count: 8
-    rate: 1
-  - name: 9
-    enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
-    count: 9
-    rate: 1
-  - name: 10
-    enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
-    count: 10
-    rate: 1
-  - name: 11
-    enemy: {fileID: 3752823849744032215, guid: 05ba439bce2e37946a50fd4726dfd3aa, type: 3}
-    count: 11
     rate: 1
   spawnPoints:
   - {fileID: 675512666}
@@ -9811,8 +9791,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Use the left mouse button to move
 
-    Use the right mouse button to
-    interact'
+    Use the right mouse button to interact'
 --- !u!222 &1122073834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15141,6 +15120,7 @@ MonoBehaviour:
   questDescription: {fileID: 1266921410}
   questReward: {fileID: 1091662981}
   questCompletedText: {fileID: 1398853082}
+  waveSpawner: {fileID: 248799245}
 --- !u!4 &1882511954
 Transform:
   m_ObjectHideFlags: 0
@@ -16622,9 +16602,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262771810162439271, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544450687474767621, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7260282080540171637, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
       propertyPath: m_Name
       value: Obelisk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7260282080540171637, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7312122731666917357, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16636,6 +16632,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7260282080540171637, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7780879295584011717}
+    - targetCorrespondingSourceObject: {fileID: 7260282080540171637, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7780879295584011720}
   m_SourcePrefab: {fileID: 100100000, guid: fae45cdb2c4ab3c439eface0b9374aab, type: 3}
 --- !u!1001 &5503521723615820691
 PrefabInstance:
@@ -16757,6 +16756,10 @@ PrefabInstance:
       propertyPath: m_AngularSpeed
       value: 240
       objectReference: {fileID: 0}
+    - target: {fileID: 7166113953463554029, guid: ea9fbf98fe6c79349b748bf9a2011c35, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7611508613373959155, guid: ea9fbf98fe6c79349b748bf9a2011c35, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -16792,6 +16795,22 @@ NavMeshAgent:
   m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!208 &6399446746813324858
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388605415574462187}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!114 &7780879295584011716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16826,6 +16845,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.235899, y: 3.1660595, z: 1}
   m_Center: {x: -0.117949486, y: 1.0830297, z: 0}
+--- !u!208 &7780879295584011720
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804321429007689736}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!114 &7949723692930965900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16906,6 +16941,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3446923019692236738, guid: 5834e8c9ff6027c4db89852ab45d335b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6399446746813324851}
+    - targetCorrespondingSourceObject: {fileID: 3446923019692236738, guid: 5834e8c9ff6027c4db89852ab45d335b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6399446746813324858}
   m_SourcePrefab: {fileID: 100100000, guid: 5834e8c9ff6027c4db89852ab45d335b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

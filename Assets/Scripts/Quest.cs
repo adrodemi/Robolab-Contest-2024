@@ -15,6 +15,7 @@ public class Quest : MonoBehaviour
     public bool isDone = false;
     private bool isActive = false;
     public Text questName, questDescription, questReward, questCompletedText;
+    public WaveSpawner waveSpawner;
     private void Start()
     {
         enemyCount = enemies.Count;
@@ -26,6 +27,7 @@ public class Quest : MonoBehaviour
     {
         if (!isActive)
         {
+            waveSpawner.gameObject.SetActive(true);
             questName.gameObject.SetActive(true);
             questDescription.gameObject.SetActive(true);
             questReward.gameObject.SetActive(true);
@@ -48,10 +50,10 @@ public class Quest : MonoBehaviour
     public void OnEnemyDead()
     {
         enemyCount--;
-        if (enemyCount <= 0)
-        {
-
-        }
+        //if (enemyCount <= 0)
+        //{
+        //    QuestDone();
+        //}
     }
     public void QuestDone()
     {
@@ -69,7 +71,7 @@ public class Quest : MonoBehaviour
     }
     public IEnumerator EndOfTheGame()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(10f);
         SceneManager.LoadScene("Credits Scene");
     }
 }

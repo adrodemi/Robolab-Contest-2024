@@ -1008,7 +1008,7 @@ struct MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09  : public RuntimeObj
 {
 	List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* ___m_TrackedButtons;
 };
-struct U3CEndOfTheGameU3Ed__16_tF536A6024515279EFDB48ACB4D33B40D6F727280  : public RuntimeObject
+struct U3CEndOfTheGameU3Ed__17_tBFE744B6769EBF19B243CCAD5BDC556B75B0BC98  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -5243,6 +5243,7 @@ struct Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9  : public MonoBehaviour_t
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___questDescription;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___questReward;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___questCompletedText;
+	WaveSpawner_tCF00FE935750D519050ACA717269E033818F7075* ___waveSpawner;
 };
 struct QuestsSystem_t23299CF7D978A8757F2FC4C67A558D57705E5629  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7934,10 +7935,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3661[9] =
 	static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___mainCamera)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___movableMask)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___focus)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___swordObject)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___axeObject)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___coinsCount)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___health)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74, ___restartButton)),static_cast<int32_t>(offsetof(Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74_StaticFields, ___Instance)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3662[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CEndOfTheGameU3Ed__16_tF536A6024515279EFDB48ACB4D33B40D6F727280, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CEndOfTheGameU3Ed__16_tF536A6024515279EFDB48ACB4D33B40D6F727280, ___U3CU3E2__current)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3663[12] = 
+	static_cast<int32_t>(offsetof(U3CEndOfTheGameU3Ed__17_tBFE744B6769EBF19B243CCAD5BDC556B75B0BC98, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CEndOfTheGameU3Ed__17_tBFE744B6769EBF19B243CCAD5BDC556B75B0BC98, ___U3CU3E2__current)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3663[13] = 
 {
-	static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___id)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___name)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___description)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___coinsReward)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___enemies)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___enemyCount)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___isDone)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___isActive)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questName)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questDescription)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questReward)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questCompletedText)),};
+	static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___id)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___name)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___description)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___coinsReward)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___enemies)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___enemyCount)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___isDone)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___isActive)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questName)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questDescription)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questReward)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___questCompletedText)),static_cast<int32_t>(offsetof(Quest_tEC1246A2C0E042A3081F297279B59702FB449CB9, ___waveSpawner)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3664[3] = 
 {
 	static_cast<int32_t>(offsetof(QuestsSystem_t23299CF7D978A8757F2FC4C67A558D57705E5629, ___activeQuests)),static_cast<int32_t>(offsetof(QuestsSystem_t23299CF7D978A8757F2FC4C67A558D57705E5629, ___doneQuests)),static_cast<int32_t>(offsetof(QuestsSystem_t23299CF7D978A8757F2FC4C67A558D57705E5629_StaticFields, ___Instance)),};
@@ -8307,21 +8308,21 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3845[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3846[1] = 
 {
 	static_cast<int32_t>(offsetof(AudioPlayableOutput_tC3DFF8095F429D90129A367EAB98A24F6D6ADF20, ___m_Handle)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3848[1] = 
-{
-	static_cast<int32_t>(offsetof(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_StaticFields, ___m_LastDisabledRigidbody2D)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3849[6] = 
-{
-	static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Centroid)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Point)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Normal)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Distance)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Fraction)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Collider)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3856[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3852[1] = 
 {
 	static_cast<int32_t>(offsetof(NavMesh_t3543D236ABB9A67F696BCF9440D669A1578B3D46_StaticFields, ___onPreUpdate)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3865[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3854[1] = 
+{
+	static_cast<int32_t>(offsetof(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_StaticFields, ___m_LastDisabledRigidbody2D)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3855[6] = 
+{
+	static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Centroid)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Point)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Normal)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Distance)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Fraction)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Collider)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3866[3] = 
 {
 	static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_nTag)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_aValue)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___elist)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3870[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3871[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3875[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3876[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
